@@ -12,7 +12,7 @@ authorEmoji: 👺
 tags: 
 - shortcodes
 - privacy
-featured_image: "feature2/content.png"
+featured_image: "post-image/2020/unlimited-storage.png"
 ---
 test
 this is test
