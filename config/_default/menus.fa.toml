@@ -1,0 +1,40 @@
+[[main]]
+  identifier = "posts"
+  name = "پست ها"
+  url = "posts"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "آرشیو"
+  url = "archive"
+  weight = 2
+
+[[main]]
+  identifier = "tutorial"
+  name = "آموزش"
+  url = "tutorial"
+  weight = 3
+
+
+[[main]]
+  identifier = "about"
+  name = "درباره"
+  url = "about"
+  weight = 4
+
+[[main]]
+  identifier = "categories"
+  name = "دسته بندی ها"
+  url = "categories"
+  weight = 5
+
+[[main]]
+  identifier = "showcase"
+  name = "پروژه ها"
+  url = "showcase"
+  weight = 6
+
+
+
+

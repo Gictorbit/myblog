@@ -1,0 +1,12 @@
+[en]
+  title = "gictor.ir"
+  languageName = "English"
+  weight = 1
+  languagedir = "ltr"
+
+[fa]
+  title = "gictor.ir"
+  languageName = "Farsi"
+  weight = 2
+  languagedir = "rtl"
+

@@ -1,0 +1,37 @@
+[[main]]
+  identifier = "posts"
+  name = "posts"
+  url = "posts"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "archive"
+  url = "archive"
+  weight = 2
+
+[[main]]
+  identifier = "tutorial"
+  name = "Tutorial"
+  url = "tutorial"
+  weight = 3
+
+[[main]]
+  identifier = "about"
+  name = "about"
+  url = "about"
+  weight = 4
+
+[[main]]
+  name = "Categories"
+  url = "categories"
+  weight = 5
+
+[[main]]
+  identifier = "showcase"
+  name = "Showcase"
+  url = "showcase"
+  weight = 6
+
+
+
