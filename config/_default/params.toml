@@ -68,7 +68,7 @@ enableLangChange = true # show button at bottom left of footer.
 
 # service
 baiduAnalytics = "" # alternative of google analytics
-enableBusuanzi = true # if set true, total page view, total unique visitors show up in the footer.
+enableBusuanzi = false # if set true, total page view, total unique visitors show up in the footer.
 busuanziSiteUV = false # unique visitors (total number of visitors)
 busuanziSitePV = false # site total page view count
 busuanziPagePV = true # post view count
