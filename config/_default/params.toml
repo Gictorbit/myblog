@@ -39,8 +39,8 @@ myname = "victor"
 email = "gictorbit@gmail.com"
 whoami = "full Stack Developer"
 useGravatar = false
-location = "Iran,Esfahan"
-organization = "Iaun"
+location = "Iran"
+organization = "IAUN"
 link = "https://t.me/gictorbit"
 
 # sidebar
@@ -159,7 +159,7 @@ commento = false
   copyrightLinkImage = "https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc.svg"
   copyrightLinkText = "CC BY-NC"
 
-# possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
+# possible share name: "facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "whatsapp", "telegram"
 [[share]]
   name = "facebook"
 [[share]]
@@ -167,6 +167,12 @@ commento = false
   username = "gictorbit"
 [[share]]
   name = "telegram"
+[[share]]
+  name = "whatsapp"
+[[share]]
+  name = "linkedin"
+[[share]]
+  name = "reddit"
 
 [taxonomies]
   category = "categories"
