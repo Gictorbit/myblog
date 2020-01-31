@@ -1,7 +1,7 @@
 ---
 title: "دورزدن محدودیت حجم google drive"
 date: 2020-01-26T19:45:41+03:30
-description: "ذحیره نامحدود فایل ها در حساب گوگل"
+description: "ذخیره نامحدود فایل ها در حساب گوگل"
 draft: false
 hideToc: false
 enableToc: true
