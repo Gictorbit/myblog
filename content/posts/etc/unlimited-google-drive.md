@@ -12,7 +12,6 @@ authorEmoji: 😎
 tags: 
 - گوگل درایو
 - python
-- پایتون
 categories:
 - کاربردی
 image: "images/post-image/2020/unlimited-storage.png"
