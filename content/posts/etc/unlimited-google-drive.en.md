@@ -15,8 +15,8 @@ tags:
 - unlimited storage 
 categories:
 - practical
-featured_image: "post-image/2020/unlimited-storage.png"
-image: "post-image/2020/google-drive.jpg"
+image: "images/post-image/2020/unlimited-storage.png"
+meta_image: "images/post-image/2020/google-drive.jpg"
 ---
 Store files in Google Docs without counting against your quota.
 ## Features

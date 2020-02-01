@@ -15,8 +15,8 @@ tags:
 - پایتون
 categories:
 - کاربردی
-featured_image: "post-image/2020/unlimited-storage.png"
-image: "post-image/2020/google-drive.jpg"
+image: "images/post-image/2020/unlimited-storage.png"
+meta_image: "images/post-image/2020/google-drive.jpg"
 ---
 ## مقدمه
 گوگل درایو یکی دیگر از سرویس های پر کاربرد گوگل هست که با داشتن حساب گوگل می تونید از اون برای ذخیره فایل های خود در اینترنت استفاده کنید اما به صورت پیشفرض هر حساب فقط 15 گیگابایت فضای ذخیره سازی رایگان داره و برای حجم بیشتر باید هزینه پرداخت کنید اما با یک روش جالب میشه این محدودیت رو دور زد در ادامه این روش رو توضیح میدم
