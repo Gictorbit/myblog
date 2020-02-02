@@ -1,11 +1,11 @@
 logoText = "Gictor" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
-description = "The victor personal" # for SEO
+description = "The victor personal blog" # for SEO
 custom_css = ["css/font.css"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = true # https://www.favicon-generator.org/
-
+meta_image = "/images/whoami/avatar.jpg"
 
 authorImage= "/images/whoami/avatar.jpg"
 author= "victor"
@@ -162,6 +162,7 @@ commento = false
 # possible share name: "facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "whatsapp", "telegram"
 [[share]]
   name = "facebook"
+  username = "gictorbit"
 [[share]]
   name = "twitter"
   username = "gictorbit"
