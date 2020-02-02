@@ -7,8 +7,8 @@ custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = "/images/whoami/avatar.jpg"
 
-authorImage= "/images/whoami/avatar.jpg"
-author= "victor"
+authorImage = "/images/whoami/avatar.jpg"
+author = "victor"
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
