@@ -123,7 +123,7 @@ commento = false
 [socialOptions] # if set, social icons will show up.
   email = "mailto:gictorbit@gmail.com"
   phone = ""
-  facebook = "http://facebook.com/gictorbit"
+  facebook = "http://facebook.com/gictor"
   twitter = ""
   github = "https://github.com/gictorbit"
   stack-overflow = ""

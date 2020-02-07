@@ -16,7 +16,7 @@ tags:
 - خط فرمان
 categories:
 - کاربردی
-- Gnu/Linux
+- گنو/لینوکس
 image: "images/post-image/2020/share.png"
 meta_image: "images/post-image/2020/transfer.jpg"
 ---
