@@ -13,7 +13,7 @@ tags:
 - transfer.sh
 - اشتراک گذاری فایل ها
 - لینوکس
-- کامندلاین
+- خط فرمان
 categories:
 - کاربردی
 - Gnu/Linux
