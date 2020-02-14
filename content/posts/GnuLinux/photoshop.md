@@ -13,7 +13,7 @@ tags:
 
 - نصب فتوشاپ cc در لینوکس
 - فتوشاپ cc
-- steghide
+- photoshop
 
 categories:
 - کاربردی
