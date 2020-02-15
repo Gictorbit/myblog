@@ -9,12 +9,10 @@ enableTocContent: false
 tocPosition: inner
 author: victor
 authorEmoji: 😎
-tags: 
-
+tags:
 - نصب فتوشاپ cc در لینوکس
 - فتوشاپ cc
 - photoshop
-
 categories:
 - کاربردی
 - گنو/لینوکس
