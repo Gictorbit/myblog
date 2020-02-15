@@ -53,7 +53,7 @@ enableHomeSidebarTitles = true
 enableListSidebarTitles = true
 enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
 sidebarPosition = "right" # bio, profile component layout position
-
+searchResultPosition = "side" # side, main
 hideToc = false # Hide or Show toc
 tocPosition = "inner" # inner, outer
 enableTocSwitch = true # single page table of contents visibility switch
@@ -175,8 +175,17 @@ commento = false
 [[share]]
   name = "reddit"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+[outputs]
+  page = ["HTML", "SearchIndex"]
+  home = ["HTML", "RSS", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
 
