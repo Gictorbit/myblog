@@ -17,7 +17,7 @@ categories:
 - کاربردی
 - گنو/لینوکس
 series:
-- linux
+-
 image: "images/post-image/2020/photoshop.png"
 meta_image: "images/post-image/2020/photoshop.jpg"
 ---
