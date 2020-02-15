@@ -17,6 +17,8 @@ tags:
 categories:
 - کاربردی
 - گنو/لینوکس
+series:
+
 image: "images/post-image/2020/hide.png"
 meta_image: "images/post-image/2020/steghide.jpg"
 ---

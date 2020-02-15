@@ -15,6 +15,8 @@ tags:
 - unlimited storage 
 categories:
 - practical
+series:
+
 image: "images/post-image/2020/unlimited-storage.png"
 meta_image: "images/post-image/2020/google-drive.jpg"
 ---

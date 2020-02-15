@@ -17,6 +17,8 @@ tags:
 categories:
 - کاربردی
 - گنو/لینوکس
+series:
+
 image: "images/post-image/2020/share.png"
 meta_image: "images/post-image/2020/transfer.jpg"
 ---
