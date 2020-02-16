@@ -1,5 +1,5 @@
 ---
-title: "Language Processors پردازنده های زبان"
+title: "پردازنده های زبان | Language Processors"
 date: 2020-02-15T16:51:15+03:30
 draft: false
 description: "اصول طراحی کامپایلر فصل اول: بررسی پردازنده های زبان (Language Processors)"

@@ -1,5 +1,5 @@
 ---
-title: "ساختار کامپایلر"
+title: "ساختار کامپایلر | structure of compiler"
 date: 2020-02-16T23:16:55+03:30
 draft: false
 description: "اصول طراحی کامپایلر فصل اول: ساختار کامپایلر (structure of compiler)"
