@@ -1,7 +1,7 @@
 ---
 title: "ساختار کامپایلر | structure of compiler"
 date: 2020-02-16T23:16:55+03:30
-draft: false
+draft: true
 description: "اصول طراحی کامپایلر فصل اول: ساختار کامپایلر (structure of compiler)"
 hideToc: false
 enableToc: true
