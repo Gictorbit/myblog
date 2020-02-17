@@ -32,7 +32,7 @@ meta_image: "images/post-image/2020/google-drive.jpg"
 * حجم فایل های کد گذاری شده همیشه بیشتر از حجم فایل اصلی هست
 * سرویس گوگل داکیومنت میتونه برای هر فایل متنی میلیون ها کاراکتر ذخیره کنه که حدودا معادل 710 کیلو بایت داده کدگذاری شده با `base 64‍` هست
 ## راه اندازی و احراز هویت
-{{< alert theme="warning" >}}
+{{< alert theme="warning" dir="rtl" >}}
 قبل از اجرای دستورات از نصب بودن **git** و **python** در سیستم عامل مطمئن بشید
 {{< /alert >}}
 
@@ -51,7 +51,7 @@ pip3 install -r requirements.txt
 برای اینکه برنامه بتونه به گوگل درایو ما دسترسی داشته باشه باید api حساب ما رو داشته باشه برای این کار باید [ Google's API page](https://developers.google.com/drive/api/v3/quickstart/python) رو باز کنیم
 و روی `Enable the Drive api` کلیک کنید
 بعد از اون ، باید فایل کانفیگ رو که با فرمت `json` هست دانلود کنیم و در فولدر برنامه با نام `client_secret.json` ذخیره کنیم
-{{< alert theme="warning" >}}
+{{< alert theme="warning" dir="rtl" >}}
 چون ما در **ایران** هستیم و سرویس های گوگل تحریم هستن باید از **vpn‍** استفاده کنیم
 {{< /alert >}}
 
