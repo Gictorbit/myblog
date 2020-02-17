@@ -18,7 +18,7 @@ series:
 categories:
 - طراحی کامپایلر فصل1
 
-image: "images/post-image/compiler/compiler.png"
+image: "images/post-image/compiler/compiler.svg"
 meta_image: "images/post-image/compiler/compiler-intro.jpg"
 ---
 امروزه زبان های برنامه نویسی یک ابزار برای نمایش محاسبات به انسان و ماشین هستند و همونطور که می دونیم دنیای ما بیش از پیش به زبان های برنامه نویسی وابستگی داره چون دنیا رو کامپیوتر ها اداره میکنند و نرم افزار هایی که روی آنها در حال اجرا هستند با یک زبان برنامه نویسی نوشته شده اند

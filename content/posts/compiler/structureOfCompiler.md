@@ -19,7 +19,7 @@ series:
 categories:
 - طراحی کامپایلر فصل1
 
-image: "images/post-image/compiler/compiler.png"
+image: "images/post-image/compiler/compilerStructure.svg"
 meta_image: "images/post-image/compiler/compilerStructure.jpg"
 ---
 
