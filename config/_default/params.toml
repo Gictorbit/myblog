@@ -58,7 +58,7 @@ hideToc = false # Hide or Show toc
 tocPosition = "inner" # inner, outer
 enableTocSwitch = true # single page table of contents visibility switch
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
-
+enableSidebarPostsByOrder = false
 
 # footer
 showPoweredBy = false # show footer text: Powered by Hugo and Zzo theme
