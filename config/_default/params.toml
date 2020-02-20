@@ -21,6 +21,9 @@ enableUiAnimation = true
 # header
 homeHeaderType = "empty" # text, img, slide
 
+# menu 
+showMobileMenuTerms = ["tags", "series"] #["tags", "categories", "series"]
+
 # body
 enableBreadcrumb = true # breadcrumb for list, single page
 enableSearch = true # site search with Fuse
