@@ -10,16 +10,16 @@ meta_image = "/images/whoami/avatar.jpg"
 authorImage = "/images/whoami/avatar.jpg"
 author = "victor"
 
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"] # select options for site color theme
-notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
-notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
-notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page types in archive page
+themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
+notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
+notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
+notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
+notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
+
+enableUiAnimation = true
 
 # header
 homeHeaderType = "empty" # text, img, slide
-
-# navbar
-enableThemeChange = true # site color theme
 
 # body
 enableBreadcrumb = true # breadcrumb for list, single page
@@ -33,12 +33,15 @@ archivePaginate = 13 # items per page
 paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
 talksPaginate = 8 # items per page
 talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+pubPaginate = 20
+searchResultPosition = "side" # side, main
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
 myname = "victor"
 email = "gictorbit@gmail.com"
 whoami = "full Stack Developer"
 useGravatar = false
+bioImageUrl = ""
 location = "Iran"
 organization = "IAUN"
 link = "https://t.me/gictorbit"
@@ -53,25 +56,33 @@ enableHomeSidebarTitles = true
 enableListSidebarTitles = true
 enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
 sidebarPosition = "right" # bio, profile component layout position
-searchResultPosition = "side" # side, main
 hideToc = false # Hide or Show toc
+tocFolding = false
 tocPosition = "inner" # inner, outer
 enableTocSwitch = true # single page table of contents visibility switch
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
 enableSidebarPostsByOrder = false
+tocLevels = ["h2", "h3", "h4"]
 
 # footer
 showPoweredBy = false # show footer text: Powered by Hugo and Zzo theme
 showFeedLinks = true # RSS Feed 
 showSocialLinks = true # email, facebook, twitter ...
 enableLangChange = true # show button at bottom left of footer.
+enableThemeChange = true # site color theme
 
 # service
+googleTagManager = "" # GTM-XXXXXX
 baiduAnalytics = "" # alternative of google analytics
 enableBusuanzi = false # if set true, total page view, total unique visitors show up in the footer.
 busuanziSiteUV = false # unique visitors (total number of visitors)
 busuanziSitePV = false # site total page view count
 busuanziPagePV = true # post view count
+
+# rss
+updatePeriod = "daily" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+updateFrequency = ""
+fullContents = true
 
 # comment
 enableComment = true
@@ -174,6 +185,13 @@ commento = false
   name = "linkedin"
 [[share]]
   name = "reddit"
+
+[[footerLinks]]
+  name = ""
+  link = ""
+[[footerLinks]]
+  name = ""
+  link = ""
 
 [outputs]
   page = ["HTML", "SearchIndex"]
