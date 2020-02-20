@@ -34,11 +34,22 @@ googleAnalytics = "UA-157548942-1"
     ordered = false
     startLevel = 2
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
 [taxonomies]
   category = "categories"
   tag = "tags"
   series = "series"
+
+[outputs]
+  page = ["HTML", "SearchIndex"]
+  home = ["HTML", "RSS", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
 
