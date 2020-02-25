@@ -42,7 +42,7 @@ searchResultPosition = "side" # side, main
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
 myname = "victor"
 email = "gictorbit@gmail.com"
-whoami = "full Stack Developer"
+whoami = "Back End Developer"
 useGravatar = false
 bioImageUrl = ""
 location = "Iran"
@@ -138,7 +138,7 @@ commento = false
   email = "mailto:gictorbit@gmail.com"
   phone = ""
   facebook = "http://facebook.com/gictor"
-  twitter = ""
+  twitter = "https://twitter.com/gictorbit"
   github = "https://github.com/gictorbit"
   stack-overflow = ""
   instagram = "https://instagram.com/gictorbit"
