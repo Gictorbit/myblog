@@ -48,7 +48,8 @@ meta_image: "images/post-image/2020/steghide.jpg"
 
 {{< /codes >}}
 برای دانلود سورس کد یا پکیج برنامه روی download کلیک کنید، همچنین اگر کاربر ویندوز هستید میتونید نسخه `GUI` برنامه رو نصب کنید
-{{< button href="http://steghide.sourceforge.net/download.php" width="100px" >}}download{{< /button >}} {{< button href="http://sourceforge.net/projects/steghideui" width="100px" >}}steghideui{{< /button >}}
+
+{{< button href="http://steghide.sourceforge.net/download.php" width="150px" >}}Download{{< /button >}} {{< button href="http://sourceforge.net/projects/steghideui" width="150px" >}}SteghideGui{{< /button >}}
 ### منطق
 نرم افزار steghide اول از همه فایل ها رو فشرده می کند و بعد از رمزنگاری با الگوریتم `AES` که یک الگوریتم رمزنگاری متقارن هست (برای رمزنگاری و رمزگشایی از یک کلید استفاده میکند) درستی مراحل رو چک می کند ولی این نرم افزار محدودیت هایی هم داره که در ادامه اشاره می کنم
 
@@ -111,4 +112,4 @@ steghide info Manic.jpg
 man steghide
 ```
 
-
+200
