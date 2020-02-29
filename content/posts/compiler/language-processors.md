@@ -28,12 +28,13 @@ meta_image: "images/post-image/compiler/LanguageProcessors.jpg"
 
 {{< img src="/images/post-image/compiler/languageprocessors1.png" width="300px" height="300px" >}}
 اگر برنامه مقصد (target program) یک برنامه زبان ماشین (machine-language) با قابلیت اجرایی (executable) باشه در این صورت می تواند توسط کاربر برای پردازش ورودی ها و تولید خروجی مورد نظر فراخوانی بشه به دیاگرام زیر که اجرای یک target program را نشان می دهد توجه کنید
-{{< img src="/images/post-image/compiler/languageprocessors2.png" width="500px" height="500px" >}}
+
+{{< img src="/images/post-image/compiler/languageprocessors2.png" width="400px" height="200px" >}}
 
 ## مفسر (interpreter)
 یکی دیگه از انواع رایج پردازنده های زبان ( Language Processors ) مفسرها هستند.
 مفسر به جای تولید target program به عنوان یک برنامه ترجمه شده، بر اساس source program و ورودی های کاربر (input) مستقیما عملیات های مشخص شده رو اجرا می کنه شکل زیر یک مفسر را نشان می دهد
-{{< img src="/images/post-image/compiler/languageprocessors3.png" width="500px" height="500px" >}}
+{{< img src="/images/post-image/compiler/languageprocessors3.png" width="400px" height="150px" >}}
 
 ## معایب و مزایای compiler و interpreter
 معمولا کد زبان ماشینی که از برنامه هدف (target program) توسط کامپایلر تولید شده است از مفسری که ورودی ها رو به خروجی نگاشت میکنه سریع تر هست در حالی که یک مفسر در تشخیص دادن ارور ها بهتر عمل میکنه چون source program رو خط به خط تفسیر، و دستور به دستور اجرا می کنه
@@ -42,7 +43,7 @@ meta_image: "images/post-image/compiler/LanguageProcessors.jpg"
 برای مثال زبان جاوا با ادغام دو نوع پردازنده زبان مفسری و کامپایلری از یک ماشین مجازی بهره می برد یک برنامه مبدا (source program) جاوا ممکن است اول به یک زبان میانی به نام بایت کد (byte code) کامپایل شود سپس توسط ماشین مجازی (virtual machine) که همان مفسر جاوا هست خط به خط تفسیر می شود
 فایده این روش این هست که بایت کد هایی که در یک ماشین کامپایل می شوند می توانند در یک ماشین دیگر تفسیر شوند یا شاید در سرار یک شبکه
 البته برای دستیابی به پردازش سریع تر ورودی ها به خروجی، بعضی از انواع کامپایلر های جاوا به نام just-in-time compilers هستند که قبل از این که برنامه های میانی برای پردازش ورودی ها اجرا بشوند بایت کد را بلافاصله به زبان ماشین (صفر و یک) ترجمه می کنند 
-{{< img src="/images/post-image/compiler/languageprocessors4.png" width="500px" height="500px" >}}
+{{< img src="/images/post-image/compiler/languageprocessors4.png" width="400px" height="236px" >}}
 ## پیش پردازشگر preprocessor
 برای تولید یک target program علاوه بر کامپایلر ممکن است چندین برنامه دیگر نیاز شوند همچنین  یک source program ممکن هست به ماژول هایی تقسیم بشه که در فایل های جداگانه ذخیره شده اند.
 برای تولید برنامه مبدا برنامه مستقل دیگری به نام پیش پردازنده یا preprocessor همه ی ماژول ها رو گرد آوری می کند و یک برنامه مبدا به عنوان خروجی تولید می کند 
