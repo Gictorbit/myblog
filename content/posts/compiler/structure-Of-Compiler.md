@@ -35,7 +35,7 @@ meta_image: "images/post-image/compiler/compilerStructure.jpg"
 
 اگر فرایند کامپایل رو دقیق تر بررسی کنیم می بینیم که این فرایند از فاز های پشت سرهم تشکیل شده و هر فاز کد مبدا رو بررسی میکند و به فاز بعد ارائه میکند برای مثال یک نمونه از تجزیه فاز های کامپایلر رو در شکل زیر می بینید
 
-{{< img src="/images/post-image/compiler/compilerStructure1.png" title="فاز های کامپایلر" caption="Phases of a compiler" alt="فاز های کامپایلر" width="500px" height="500px" position="center" >}}
+{{< img src="/images/post-image/compiler/compilerStructure1.png" title="فاز های کامپایلر" caption="Phases of a compiler" alt="فاز های کامپایلر" width="450px" height="450px" position="center" >}}
 
 {{< alert theme="info" dir="rtl" >}}
 جدول علائم یا همان  *symbol table* که اطلاعاتی درباره کل برنامه مبدا رو ذخیره میکند توسط همه ی فاز های کامپایل استفاده میشود و همه فاز ها به آن دسترسی دارند
@@ -113,7 +113,7 @@ position = initial + rate * 60
 <id,1>  < = >  <id,2>  < + >  <id,3>  < * >  <60>
 ```
 در مثال ما نام های = و + و* برای راحتی در توکن ها به عنوان نام های معادل assignment و addition و multiplication استفاده شده اند.
-{{< img src="/images/post-image/compiler/compilerStructure2.png" title="کامپایل یک دستور انتساب" caption="translation of an assignment statement" alt="کامپایل دستور انتساب" width="500px" height="500px" position="center" >}}
+{{< img src="/images/post-image/compiler/compilerStructure2.png" title="کامپایل یک دستور انتساب" caption="translation of an assignment statement" alt="کامپایل دستور انتساب" width="500px" height="600px" position="center" >}}
 
 ## تحلیل گر نحوی (Syntax analyser)
 فاز دوم کامپایلر syntax analyzer یا پارس `parsing` نام دارد. پارسر `parser` از اولین جزء توکن که توسط تحلیلگر لغوی تولید شده استفاده می کند و یک درخت از ترتیب قرار گیری توکن ها می سازد به این درخت `syntax tree` می گویند. این درخت ساختار گرامری یک دستور رو بر اساس توکن ها نشون میده در واقع در این درخت برگ ها عملوند هستند و راس های آن ها عملگر هستند که اولویت عملگر ها رو هم نشان می دهد  طبق درخت تولید شده در مثال ما اول باید عدد 60 در توکن <3 , id> که همان متغیر rate  هست ضرب شود و نتیجه آن با توکن < 2 , id > که همان initial هست جمع شود و سپس در توکن  < 1 , id > که همان position هست ریخته شود تحلیل گر نحوی چک میکند که ترتیب قرار گیری توکن ها درست باشد به عبارتی دیگر دستور ما طبق الگوی از قبل تعریف شده باشد و سپس درخت سینتکس رو به عنوان خروجی به فاز بعدی یعنی تحلیلگر معنایی یا semantic تحویل می دهد. این کار با استفاده از زبان های مستقل از متن انجام می شود
